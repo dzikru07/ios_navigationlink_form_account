@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC5CE1202AFF76F200FCCE74 /* FormApp_NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5CE11F2AFF76F200FCCE74 /* FormApp_NavigationApp.swift */; };
+		AC5CE1222AFF76F200FCCE74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5CE1212AFF76F200FCCE74 /* ContentView.swift */; };
+		AC5CE1242AFF76F300FCCE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5CE1232AFF76F300FCCE74 /* Assets.xcassets */; };
+		AC5CE1282AFF76F300FCCE74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5CE1272AFF76F300FCCE74 /* Preview Assets.xcassets */; };
+		AC5CE1322AFF76F300FCCE74 /* FormApp_NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5CE1312AFF76F300FCCE74 /* FormApp_NavigationTests.swift */; };
+		AC5CE13C2AFF76F300FCCE74 /* FormApp_NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5CE13B2AFF76F300FCCE74 /* FormApp_NavigationUITests.swift */; };
+		AC5CE13E2AFF76F300FCCE74 /* FormApp_NavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5CE13D2AFF76F300FCCE74 /* FormApp_NavigationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC5CE12E2AFF76F300FCCE74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC5CE1142AFF76F200FCCE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC5CE11B2AFF76F200FCCE74;
+			remoteInfo = FormApp_Navigation;
+		};
+		AC5CE1382AFF76F300FCCE74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC5CE1142AFF76F200FCCE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC5CE11B2AFF76F200FCCE74;
+			remoteInfo = FormApp_Navigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC5CE11C2AFF76F200FCCE74 /* FormApp_Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormApp_Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5CE11F2AFF76F200FCCE74 /* FormApp_NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormApp_NavigationApp.swift; sourceTree = "<group>"; };
+		AC5CE1212AFF76F200FCCE74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC5CE1232AFF76F300FCCE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC5CE1252AFF76F300FCCE74 /* FormApp_Navigation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FormApp_Navigation.entitlements; sourceTree = "<group>"; };
+		AC5CE1272AFF76F300FCCE74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC5CE12D2AFF76F300FCCE74 /* FormApp_NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormApp_NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5CE1312AFF76F300FCCE74 /* FormApp_NavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormApp_NavigationTests.swift; sourceTree = "<group>"; };
+		AC5CE1372AFF76F300FCCE74 /* FormApp_NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormApp_NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5CE13B2AFF76F300FCCE74 /* FormApp_NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormApp_NavigationUITests.swift; sourceTree = "<group>"; };
+		AC5CE13D2AFF76F300FCCE74 /* FormApp_NavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormApp_NavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC5CE1192AFF76F200FCCE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5CE12A2AFF76F300FCCE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5CE1342AFF76F300FCCE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC5CE1132AFF76F200FCCE74 = {
+			isa = PBXGroup;
+			children = (
+				AC5CE11E2AFF76F200FCCE74 /* FormApp_Navigation */,
+				AC5CE1302AFF76F300FCCE74 /* FormApp_NavigationTests */,
+				AC5CE13A2AFF76F300FCCE74 /* FormApp_NavigationUITests */,
+				AC5CE11D2AFF76F200FCCE74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC5CE11D2AFF76F200FCCE74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC5CE11C2AFF76F200FCCE74 /* FormApp_Navigation.app */,
+				AC5CE12D2AFF76F300FCCE74 /* FormApp_NavigationTests.xctest */,
+				AC5CE1372AFF76F300FCCE74 /* FormApp_NavigationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC5CE11E2AFF76F200FCCE74 /* FormApp_Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AC5CE11F2AFF76F200FCCE74 /* FormApp_NavigationApp.swift */,
+				AC5CE1212AFF76F200FCCE74 /* ContentView.swift */,
+				AC5CE1232AFF76F300FCCE74 /* Assets.xcassets */,
+				AC5CE1252AFF76F300FCCE74 /* FormApp_Navigation.entitlements */,
+				AC5CE1262AFF76F300FCCE74 /* Preview Content */,
+			);
+			path = FormApp_Navigation;
+			sourceTree = "<group>";
+		};
+		AC5CE1262AFF76F300FCCE74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC5CE1272AFF76F300FCCE74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC5CE1302AFF76F300FCCE74 /* FormApp_NavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC5CE1312AFF76F300FCCE74 /* FormApp_NavigationTests.swift */,
+			);
+			path = FormApp_NavigationTests;
+			sourceTree = "<group>";
+		};
+		AC5CE13A2AFF76F300FCCE74 /* FormApp_NavigationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC5CE13B2AFF76F300FCCE74 /* FormApp_NavigationUITests.swift */,
+				AC5CE13D2AFF76F300FCCE74 /* FormApp_NavigationUITestsLaunchTests.swift */,
+			);
+			path = FormApp_NavigationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC5CE11B2AFF76F200FCCE74 /* FormApp_Navigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5CE1412AFF76F300FCCE74 /* Build configuration list for PBXNativeTarget "FormApp_Navigation" */;
+			buildPhases = (
+				AC5CE1182AFF76F200FCCE74 /* Sources */,
+				AC5CE1192AFF76F200FCCE74 /* Frameworks */,
+				AC5CE11A2AFF76F200FCCE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormApp_Navigation;
+			productName = FormApp_Navigation;
+			productReference = AC5CE11C2AFF76F200FCCE74 /* FormApp_Navigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC5CE12C2AFF76F300FCCE74 /* FormApp_NavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5CE1442AFF76F300FCCE74 /* Build configuration list for PBXNativeTarget "FormApp_NavigationTests" */;
+			buildPhases = (
+				AC5CE1292AFF76F300FCCE74 /* Sources */,
+				AC5CE12A2AFF76F300FCCE74 /* Frameworks */,
+				AC5CE12B2AFF76F300FCCE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC5CE12F2AFF76F300FCCE74 /* PBXTargetDependency */,
+			);
+			name = FormApp_NavigationTests;
+			productName = FormApp_NavigationTests;
+			productReference = AC5CE12D2AFF76F300FCCE74 /* FormApp_NavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC5CE1362AFF76F300FCCE74 /* FormApp_NavigationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5CE1472AFF76F300FCCE74 /* Build configuration list for PBXNativeTarget "FormApp_NavigationUITests" */;
+			buildPhases = (
+				AC5CE1332AFF76F300FCCE74 /* Sources */,
+				AC5CE1342AFF76F300FCCE74 /* Frameworks */,
+				AC5CE1352AFF76F300FCCE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC5CE1392AFF76F300FCCE74 /* PBXTargetDependency */,
+			);
+			name = FormApp_NavigationUITests;
+			productName = FormApp_NavigationUITests;
+			productReference = AC5CE1372AFF76F300FCCE74 /* FormApp_NavigationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC5CE1142AFF76F200FCCE74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AC5CE11B2AFF76F200FCCE74 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					AC5CE12C2AFF76F300FCCE74 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = AC5CE11B2AFF76F200FCCE74;
+					};
+					AC5CE1362AFF76F300FCCE74 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = AC5CE11B2AFF76F200FCCE74;
+					};
+				};
+			};
+			buildConfigurationList = AC5CE1172AFF76F200FCCE74 /* Build configuration list for PBXProject "FormApp_Navigation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC5CE1132AFF76F200FCCE74;
+			productRefGroup = AC5CE11D2AFF76F200FCCE74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC5CE11B2AFF76F200FCCE74 /* FormApp_Navigation */,
+				AC5CE12C2AFF76F300FCCE74 /* FormApp_NavigationTests */,
+				AC5CE1362AFF76F300FCCE74 /* FormApp_NavigationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC5CE11A2AFF76F200FCCE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5CE1282AFF76F300FCCE74 /* Preview Assets.xcassets in Resources */,
+				AC5CE1242AFF76F300FCCE74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5CE12B2AFF76F300FCCE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5CE1352AFF76F300FCCE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC5CE1182AFF76F200FCCE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5CE1222AFF76F200FCCE74 /* ContentView.swift in Sources */,
+				AC5CE1202AFF76F200FCCE74 /* FormApp_NavigationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5CE1292AFF76F300FCCE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5CE1322AFF76F300FCCE74 /* FormApp_NavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5CE1332AFF76F300FCCE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5CE13E2AFF76F300FCCE74 /* FormApp_NavigationUITestsLaunchTests.swift in Sources */,
+				AC5CE13C2AFF76F300FCCE74 /* FormApp_NavigationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC5CE12F2AFF76F300FCCE74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC5CE11B2AFF76F200FCCE74 /* FormApp_Navigation */;
+			targetProxy = AC5CE12E2AFF76F300FCCE74 /* PBXContainerItemProxy */;
+		};
+		AC5CE1392AFF76F300FCCE74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC5CE11B2AFF76F200FCCE74 /* FormApp_Navigation */;
+			targetProxy = AC5CE1382AFF76F300FCCE74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC5CE13F2AFF76F300FCCE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC5CE1402AFF76F300FCCE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AC5CE1422AFF76F300FCCE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FormApp_Navigation/FormApp_Navigation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FormApp_Navigation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.FormApp-Navigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC5CE1432AFF76F300FCCE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FormApp_Navigation/FormApp_Navigation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FormApp_Navigation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.FormApp-Navigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC5CE1452AFF76F300FCCE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.FormApp-NavigationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormApp_Navigation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FormApp_Navigation";
+			};
+			name = Debug;
+		};
+		AC5CE1462AFF76F300FCCE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.FormApp-NavigationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormApp_Navigation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FormApp_Navigation";
+			};
+			name = Release;
+		};
+		AC5CE1482AFF76F300FCCE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.FormApp-NavigationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FormApp_Navigation;
+			};
+			name = Debug;
+		};
+		AC5CE1492AFF76F300FCCE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.FormApp-NavigationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FormApp_Navigation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC5CE1172AFF76F200FCCE74 /* Build configuration list for PBXProject "FormApp_Navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5CE13F2AFF76F300FCCE74 /* Debug */,
+				AC5CE1402AFF76F300FCCE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5CE1412AFF76F300FCCE74 /* Build configuration list for PBXNativeTarget "FormApp_Navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5CE1422AFF76F300FCCE74 /* Debug */,
+				AC5CE1432AFF76F300FCCE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5CE1442AFF76F300FCCE74 /* Build configuration list for PBXNativeTarget "FormApp_NavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5CE1452AFF76F300FCCE74 /* Debug */,
+				AC5CE1462AFF76F300FCCE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5CE1472AFF76F300FCCE74 /* Build configuration list for PBXNativeTarget "FormApp_NavigationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5CE1482AFF76F300FCCE74 /* Debug */,
+				AC5CE1492AFF76F300FCCE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC5CE1142AFF76F200FCCE74 /* Project object */;
+}
